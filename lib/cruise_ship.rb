@@ -10,5 +10,5 @@ def select_winner(passengers)
   # add the code snippet here!
   winner = ""
   passengers.do |suite, name|
-    if suite == 
+    if suite == :suite_a
 end
