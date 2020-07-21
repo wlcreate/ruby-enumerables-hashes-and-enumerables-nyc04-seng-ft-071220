@@ -11,4 +11,5 @@ def select_winner(passengers)
   winner = ""
   passengers.do |suite, name|
     if suite == :suite_a && name.start_with?("A")
+      
 end
